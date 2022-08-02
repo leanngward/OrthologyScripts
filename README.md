@@ -1,6 +1,6 @@
 # OrthologyScripts
 
-### gff_longestCDSinfo.py
+## gff_longestCDSinfo.py
 
 #### Run command: 
 python3 gff_longestCDSinfo.py [gff file name] [output file name]
@@ -29,7 +29,7 @@ This script outputs information valuable for
 </ul>
 
 
-### updateproteome_withxp.py
+## updateproteome_withxp.py
 
 #### Description:
 
@@ -40,7 +40,7 @@ python3 updateproteome_withxp.py [protein file name] [list of longest transcript
 
 
 
-### gtf_longestCDSinfo.py
+## gtf_longestCDSinfo.py
 
 #### Run command: 
 python3 gtf_longestCDSinfo.py [gtf file name] [output file name]
@@ -53,7 +53,7 @@ Runs the same as gff_longestCDSinfo.py but is adjusted for the gtf format.
 The same as above. The main difference as that the gene id is not different from the transcript id.
 
 
-### maps_getlongestcolumn.py
+## maps_getlongestcolumn.py
 
 #### Run command: 
 
@@ -63,7 +63,7 @@ python3 maps_getlongestcolumn.py [CDS output map] [output file name]
 Uses string search to pull the second column for the CDS ID's. These CDS ID's are used to edit FASTA files.
 
 
-### auto_gff_getinfo.sh
+## auto_gff_getinfo.sh
 
 #### Run command: 
 ./auto_gff_getinfo.sh WITHIN DIRECTORY
@@ -79,7 +79,7 @@ Creates file names as [.gff/gtf file name.CDS.output] <br>
 Note: The script will find all files that contain .gff or .gtf, so if this is re-run MAKE SURE to delete the CDS.output files.
 
 
-### auto_create_txlist.sh
+## auto_create_txlist.sh
 	
 #### Run command: ./auto_gff_getinfo.sh WITHIN DIRECTORY
 
